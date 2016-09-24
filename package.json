@@ -1,0 +1,26 @@
+{
+  "name": "neutron-connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test-dev": "jest --watch --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa-body": "^1.5.0",
+    "koa-route": "^2.4.2",
+    "node-fetch": "^1.6.1"
+  },
+  "devDependencies": {
+    "jest": "^15.1.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "__tests__/test-workspace/"
+    ]
+  }
+}
